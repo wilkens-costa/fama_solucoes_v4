@@ -1,0 +1,9 @@
+- **WordPress** — content management system powering the website
+- **Elementor** — page builder used for designing the layout and sections
+- **Contact Form 7** — plugin used for handling contact form submissions
+- **Owl Carousel** — jQuery plugin used for the responsive card slider
+- **jQuery** — JavaScript library used for DOM manipulation and animations
+- **Royal Elementor Addons** — add-on library providing additional Elementor widgets and effects (particles, parallax)
+- **WP WhatsApp Chat (QLWAPP)** — plugin used for the floating WhatsApp chat widget
+- **Cookie Notice** — plugin used for the GDPR cookie consent banner
+- **FontAwesome** — icon library used for social and UI icons

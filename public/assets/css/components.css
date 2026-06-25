@@ -1,0 +1,795 @@
+
+.BotMenu1 {
+	border-radius: 30px !important;
+	margin: auto 10px !important;
+	border: 2px solid #E3506D !important;
+}
+
+.BotMenu1 a {
+	font-weight: bold !important;
+	color: #E3506D !important;
+	padding: 15px 20px !important;
+}
+
+.BotMenu1 a:hover {
+	background-color: #E3506D !important;
+	color: #ffffff !important;
+		border-radius: 30px !important;
+
+}
+
+.BotMenu2 {
+	border-radius: 30px !important;
+	margin: auto 10px !important;
+		border: 2px solid #E3506D !important;
+}
+
+.BotMenu2 a {
+	border-radius: 30px !important;
+	background-color: #E3506D !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+	padding: 15px 20px !important;
+}
+
+.BotMenu2 a:hover {
+	background-color: #ffffff !important;
+	color: #E3506D !important;
+		border-radius: 30px !important;
+
+}
+
+
+
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			
+
+				.lg-backdrop {
+					background-color: rgba(0,0,0,0.6) !important;
+				}
+				.lg-toolbar,
+				.lg-dropdown {
+					background-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-dropdown:after {
+					border-bottom-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-sub-html {
+					background-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-thumb-outer,
+				.lg-progress-bar {
+					background-color: #444444 !important;
+				}
+				.lg-progress {
+					background-color: #a90707 !important;
+				}
+				.lg-icon {
+					color: #efefef !important;
+					font-size: 20px !important;
+				}
+				.lg-icon.lg-toogle-thumb {
+					font-size: 24px !important;
+				}
+				.lg-icon:hover,
+				.lg-dropdown-text:hover {
+					color: #ffffff !important;
+				}
+				.lg-sub-html,
+				.lg-dropdown-text {
+					color: #efefef !important;
+					font-size: 14px !important;
+				}
+				#lg-counter {
+					color: #efefef !important;
+					font-size: 14px !important;
+				}
+				.lg-prev,
+				.lg-next {
+					font-size: 35px !important;
+				}
+
+				/* Defaults */
+				.lg-icon {
+				background-color: transparent !important;
+				}
+
+				#lg-counter {
+				opacity: 0.9;
+				}
+
+				.lg-thumb-outer {
+				padding: 0 10px;
+				}
+
+				.lg-thumb-item {
+				border-radius: 0 !important;
+				border: none !important;
+				opacity: 0.5;
+				}
+
+				.lg-thumb-item.active {
+					opacity: 1;
+				}
+	         
+/* offline: ensure content is visible regardless of JS init state */
+html,body{opacity:1!important;visibility:visible!important}
+.page-loader,.site-loader,[class*='loading-screen'],[id*='loading-screen']{display:none!important}
+
+
+    /* Container principal */
+    .container-card-sec2 {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DAB5D1;
+        border-radius: 20px;
+        padding: 20px 15px 0px px;
+        transition: transform 0.3s ease;
+        overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+        position: relative; /* Necessário para ajustar o crescimento */
+    }
+
+    /* Efeito de crescimento no hover */
+    .container-card-sec2:hover {
+        transform: scale(1.05);
+        transform-origin: bottom; /* Faz o cartão crescer para cima */
+    }
+
+    .image-card-sec2 {
+        width: 40px;
+        margin: 0px auto 0px auto !important;
+    }
+
+    .titulo-card-sec2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        color: #6E325F;
+        margin-bottom: 0px;
+        line-height: 1em;
+
+    }
+
+    /* Texto oculto e visível no hover */
+    .texto-card-sec2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+        color: #6E325F;
+        opacity: 0;
+        line-height: 1em;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        overflow: hidden;
+        transition: none; /* Sem transição no estado normal */
+    }
+
+    .container-card-sec2:hover .texto-card-sec2 {
+        opacity: 1;
+        max-height: 100%;
+        transition: opacity 0.3s ease, max-height 0.5s ease; /* Transição suave apenas no hover */
+    }
+
+
+    /* Container principal */
+    .container-card-sec2 {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DAB5D1;
+        border-radius: 20px;
+        padding: 20px 20px 0px 20px;
+        transition: transform 0.3s ease;
+        overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+        position: relative; /* Necessário para ajustar o crescimento */
+    }
+
+    /* Efeito de crescimento no hover */
+    .container-card-sec2:hover {
+        transform: scale(1.05);
+        transform-origin: bottom; /* Faz o cartão crescer para cima */
+    }
+
+    .image-card-sec2 {
+        width: 40px;
+        margin: 0 auto 10px auto;
+    }
+
+    .titulo-card-sec2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        color: #6E325F;
+        margin-bottom: 0px;
+    }
+
+    /* Texto oculto e visível no hover */
+    .texto-card-sec2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: #6E325F;
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: none; /* Sem transição no estado normal */
+    }
+
+    .container-card-sec2:hover .texto-card-sec2 {
+        opacity: 1;
+        max-height: 100%;
+        transition: opacity 0.3s ease, max-height 0.5s ease; /* Transição suave apenas no hover */
+    }
+
+
+        /* Container principal */
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #DAB5D1;
+            border-radius: 20px;
+            padding: 30px 10px 10px 10px; /* Reduzido */
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            position: relative;
+            min-height: 250px; /* Reduzido */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px 10px 10px 10px; /* Para espaçamento entre os cards */
+        }
+
+        /* Efeito de crescimento no hover */
+        .card-container:hover {
+            transform: scale(1.05);
+            transform-origin: bottom;
+        }
+
+        .card-image {
+            width: 50px !important; /* Reduzido */
+            margin: 0px auto 0px auto !important;
+        }
+
+        .card-title {
+            font-family: 'Jost', sans-serif;
+            font-size: 1.3em; /* Reduzido */
+            text-align: center;
+            color: #6E325F;
+            margin-bottom: 10px;
+            line-height: 1.2em;
+        }
+
+        .card-text {
+            font-family: 'Jost', sans-serif;
+            font-size: 1em; /* Reduzido */
+            text-align: center;
+            color: #6E325F;
+            opacity: 1; /* Permanentemente visível */
+            line-height: 1.2em;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            overflow: hidden;
+            transition: none;
+            max-height: none; /* Permitir que o texto ocupe espaço */
+        }
+
+        /* Estilo para o Owl Carousel */
+        .owl-dots {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .owl-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 5px;
+            background-color: #6E325F;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .owl-dot.active {
+            background-color: #DAB5D1;
+        }
+    
+
+.container-card-sec6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    min-height: 150px !important;
+    will-change: transform;
+    transform: translateZ(0); /* Aceleração por hardware */
+}
+
+.container-card-sec6:hover {
+    transform: scale(1.05);
+    transform-origin: bottom;
+    background-color: #E3506D !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15),
+                0 12px 40px rgba(0, 0, 0, 0.15);
+    position: relative; /* Mantém a posição sem afetar o layout ao redor */
+    z-index: 10; /* Traz o card para frente durante o hover */
+}
+
+
+    .image-card-sec6 {
+        width: 60px !important;
+        margin: 0px auto 0px 10px !important;
+        transition: filter 0.4s ease-in-out; /* Adicionando transição ao filtro */
+    }
+
+    .titulo-card-sec6 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: left;
+        color: #6E325F;
+        margin: 20px auto 0px 10px !important;
+        line-height: 1em;
+        transition: color 0.4s ease-in-out; /* Adicionando transição na cor */
+    }
+
+    /* Texto oculto e visível no hover */
+    .texto-card-sec6 {
+        font-family: 'Jost', sans-serif;
+        font-size: 0.9em;
+        text-align: center !important;
+        color: #6E325F;
+        opacity: 0;
+        line-height: 1em;
+        margin: 20px auto 0px 10px !important;
+        overflow: hidden;
+        display: none !important; /* Sem transição no estado normal */
+        transition: opacity 0.4s ease-in-out, max-height 0.5s ease-in-out; /* Aumentar a duração das transições */
+    }
+
+    .container-card-sec6:hover .texto-card-sec6 {
+        opacity: 1;
+        max-height: 100%;
+        display: flex !important; /* Sem transição no estado normal */
+        color: #ffffff;
+    }
+
+    .container-card-sec6:hover .titulo-card-sec6 {
+        color: #ffffff;
+    }
+
+    .container-card-sec6:hover .image-card-sec6 {
+        filter: invert(34%) sepia(27%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(100%);
+    }
+
+
+.container-card-sec6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    min-height: 150px !important;
+    will-change: transform;
+    transform: translateZ(0); /* Aceleração por hardware */
+}
+
+.container-card-sec6:hover {
+    transform: scale(1.05);
+    transform-origin: bottom;
+    background-color: #E3506D !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15),
+                0 12px 40px rgba(0, 0, 0, 0.15);
+    position: relative; /* Mantém a posição sem afetar o layout ao redor */
+    z-index: 10; /* Traz o card para frente durante o hover */
+}
+
+
+    .image-card-sec6 {
+        width: 60px !important;
+        margin: 0px auto 0px 10px !important;
+        transition: filter 0.4s ease-in-out; /* Adicionando transição ao filtro */
+    }
+
+    .titulo-card-sec6 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: left;
+        color: #6E325F;
+        margin: 20px auto 0px 10px !important;
+        line-height: 1em;
+        transition: color 0.4s ease-in-out; /* Adicionando transição na cor */
+    }
+
+    /* Texto oculto e visível no hover */
+    .texto-card-sec6 {
+        font-family: 'Jost', sans-serif;
+        font-size: 0.9em;
+        text-align: left;
+        color: #6E325F;
+        opacity: 0;
+        line-height: 1em;
+        margin: 20px auto 0px 10px !important;
+        overflow: hidden;
+        display: none !important; /* Sem transição no estado normal */
+        transition: opacity 0.4s ease-in-out, max-height 0.5s ease-in-out; /* Aumentar a duração das transições */
+    }
+
+    .container-card-sec6:hover .texto-card-sec6 {
+        opacity: 1;
+        max-height: 100%;
+        display: flex !important; /* Sem transição no estado normal */
+        color: #ffffff;
+    }
+
+    .container-card-sec6:hover .titulo-card-sec6 {
+        color: #ffffff;
+    }
+
+    .container-card-sec6:hover .image-card-sec6 {
+        filter: invert(34%) sepia(27%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(100%);
+    }
+
+
+ .accordion-sec8 .accordion-item {
+    border: 1px solid #6E325F;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #6E325F;
+    transition: all 0.3s ease;
+    margin: 20px;
+    text-align: center;
+}
+
+.accordion-sec8 .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #6E325F;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 20px;
+}
+.accordion-header img{
+   height: 55px;
+   padding: 10px;
+}
+
+.accordion-sec8 .botao-card-sec8-mob {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.accordion-sec8 .botao-card-sec8-mob:hover {
+    background-color: #ffffff;
+    color: #E3506D;
+}
+
+.accordion-sec8 .accordion-content {
+    display: none;
+    padding: 20px;
+    background-color: #E3506D;
+    color: #ffffff;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+        border-radius: 0px 0px 20px 20px;
+        border: 10px solid #E3506D;
+}
+
+.accordion-sec8 .accordion-content p {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+
+
+/* Container principal */
+.container-card-sec8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6E325F !important;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Transição mais longa e suave */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+    position: relative; /* Necessário para ajustar o crescimento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* sombra leve */
+                0 6px 20px rgba(0, 0, 0, 0.1); /* sombra mais profunda */
+    min-height: 270px !important;
+}
+
+/* Efeito de crescimento no hover */
+.container-card-sec8:hover {
+    transform: scale(1.05);
+    background-color: #E3506D !important;
+    transform-origin: bottom; /* Faz o cartão crescer para cima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), /* sombra leve aumentada */
+                0 12px 40px rgba(0, 0, 0, 0.15); /* sombra profunda aumentada */
+}
+
+/* Transição mais fluida na imagem */
+.image-card-sec8 {
+    height: 40px !important;
+    margin: 0px auto 0px auto !important;
+    transition: filter 0.5s ease; /* Suavizar o efeito de filtro */
+}
+
+.container-card-sec8:hover .image-card-sec8 {
+    filter: invert(34%) sepia(27%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(100%);
+}
+
+/* Texto oculto e visível no hover */
+.texto-card-sec8 {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #6E325F;
+    opacity: 0;
+    line-height: 1em;
+    margin: 20px auto 30px auto !important;
+    overflow: hidden;
+    display: none !important; /* Sem transição no estado normal */
+    transition: opacity 0.5s ease, max-height 0.5s ease; /* Suavizar a transição */
+}
+
+.container-card-sec8:hover .texto-card-sec8 {
+    opacity: 1;
+    max-height: 100%;
+    display: flex !important; /* Mostrar o texto no hover */
+    color:#ffffff;
+}
+
+/* Transição fluida no parágrafo */
+.paragrafo-card-sec8 {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1em;
+    margin: 20px auto !important;
+    display: flex !important;
+    transition: opacity 0.5s ease, color 0.5s ease; /* Suavizar a transição de cor e opacidade */
+}
+
+.container-card-sec8:hover .paragrafo-card-sec8 {
+    color: #6E325F;
+    opacity: 0;
+    display: none !important; /* Esconder o texto no hover */
+}
+
+/* Botão com transição mais fluida */
+.botao-card-sec8 {
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    font-family: jost;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 70px;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Suavizar a transição do botão */
+}
+
+.container-card-sec8:hover .botao-card-sec8 {
+    background-color: #ffffff;
+    color: #E3506D;
+}
+
+
+
+
+    /* Container principal */
+    .container-card-sec-emp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6E325F !important;
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+        transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* Aumentar a duração das transições */
+        overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+        position: relative; /* Necessário para ajustar o crescimento */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* sombra leve */
+                    0 6px 20px rgba(0, 0, 0, 0.1); /* sombra mais profunda */
+        min-height: 120px !important;
+    }
+
+    /* Efeito de crescimento no hover */
+    .container-card-sec-emp:hover {
+        transform: scale(1.05);
+        transform-origin: bottom; /* Faz o cartão crescer para cima */
+        background-color: #E3506D !important;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), /* sombra leve aumentada */
+                    0 12px 40px rgba(0, 0, 0, 0.15); /* sombra profunda aumentada */
+    }
+
+    .image-card-sec-emp {
+        width: 40px !important;
+        margin: 0px auto 0px auto !important;
+        transition: filter 0.4s ease-in-out; /* Adicionando transição ao filtro */
+    }
+
+    .titulo-card-sec-emp {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        color: #ffffff;
+        margin: 20px auto 0px auto !important;
+        line-height: 1em;
+        transition: color 0.4s ease-in-out; /* Adicionando transição na cor */
+    }
+
+    .container-card-sec-emp:hover .texto-card-sec-emp {
+        opacity: 1;
+        max-height: 100%;
+        display: flex !important; /* Sem transição no estado normal */
+        color: #ffffff;
+    }
+
+    .container-card-sec-emp:hover .titulo-card-sec-emp {
+        color: #ffffff;
+    }
+
+    .container-card-sec-emp:hover .image-card-sec-emp {
+        filter: invert(34%) sepia(27%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(100%);
+    }
+
+
+    /* Container principal */
+    .container-card-sec-emp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6E325F !important;
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+        transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* Aumentar a duração das transições */
+        overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+        position: relative; /* Necessário para ajustar o crescimento */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* sombra leve */
+                    0 6px 20px rgba(0, 0, 0, 0.1); /* sombra mais profunda */
+        min-height: 120px !important;
+    }
+
+    /* Efeito de crescimento no hover */
+    .container-card-sec-emp:hover {
+        transform: scale(1.05);
+        transform-origin: bottom; /* Faz o cartão crescer para cima */
+        background-color: #E3506D !important;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), /* sombra leve aumentada */
+                    0 12px 40px rgba(0, 0, 0, 0.15); /* sombra profunda aumentada */
+    }
+
+    .image-card-sec-emp {
+        width: 40px !important;
+        margin: 0px auto 0px auto !important;
+        transition: filter 0.4s ease-in-out; /* Adicionando transição ao filtro */
+    }
+
+    .titulo-card-sec-emp {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        color: #ffffff;
+        margin: 20px auto 0px auto !important;
+        line-height: 1em;
+        transition: color 0.4s ease-in-out; /* Adicionando transição na cor */
+    }
+
+    .container-card-sec-emp:hover .texto-card-sec-emp {
+        opacity: 1;
+        max-height: 100%;
+        display: flex !important; /* Sem transição no estado normal */
+        color: #ffffff;
+    }
+
+    .container-card-sec-emp:hover .titulo-card-sec-emp {
+        color: #ffffff;
+    }
+
+    .container-card-sec-emp:hover .image-card-sec-emp {
+        filter: invert(34%) sepia(27%) saturate(0%) hue-rotate(0deg) brightness(500%) contrast(100%);
+    }
+
+
+/* Estilos gerais do formulário */
+.wpcf7 form {
+ max-width: 400px;
+ margin: 0 auto;
+}
+
+.wpcf7 label {
+ display: block;
+ font-weight: bold;
+ font-size: 16px;
+ color: #000;
+ margin-bottom: 10px !important;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea {
+ width: 100%;
+ padding: 15px;
+ font-size: 16px;
+ border: none;
+ border-radius: 30px;
+ background-color: #F8F8F8;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+.wpcf7 textarea {
+ border-radius: 20px;
+ min-height: 120px;
+ resize: vertical;
+}
+
+.wpcf7 input[type="submit"] {
+ background-color: #f94e6c;
+ color: #fff;
+ font-size: 16px;
+ font-weight: bold;
+ padding: 15px;
+ border: none;
+ border-radius: 25px;
+ cursor: pointer;
+ width: 100%;
+ max-width: 400px;
+ display: block;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.wpcf7 input[type="submit"]:hover {
+ background-color: #e0435e;
+}
+
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder {
+ color: #CCC;
+ font-size: 14px;
+}
